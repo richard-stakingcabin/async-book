@@ -9,6 +9,8 @@ It lets you run a large number of concurrent
 tasks on a small number of OS threads, while preserving much of the
 look and feel of ordinary synchronous programming, through the
 `async/await` syntax.
+并发编程模型：运行上使能在少数的系统线程上运行大量的并发任务
+            代码上通过async/await语义，让代码看起来和传统同步编程一样
 
 ## Async vs other concurrency models
 
@@ -18,7 +20,7 @@ differently depending on which concurrent programming model
 the language is supporting.
 A brief overview of the most popular concurrency models can help
 you understand how asynchronous programming fits within the broader
-field of concurrent programming:
+field of concurrent programming:几种最流行的并发编程模型与优缺点
 
 - **OS threads** don't require any changes to the programming model,
   which makes it very easy to express concurrency. However, synchronizing
